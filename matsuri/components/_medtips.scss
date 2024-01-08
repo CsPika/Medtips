@@ -1,0 +1,81 @@
+.medtips{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .title{
+            display: flex;
+            justify-content: center;
+            h1{
+                font-size: 4rem;
+            }
+            h2{
+                font-size: 4rem;
+                font-weight: 600;
+                background: linear-gradient(
+            60deg,
+            rgb(100, 179, 243)10%,
+            rgb(69, 233, 255) 100%);
+            -webkit-background-clip: text;
+            color: transparent;
+            }
+        }
+        .dropdown{
+            display: flex;
+            flex-direction: column;
+            .text__tips{
+                .topdrop{
+                    border-width: 1px;
+                    h1{
+                    padding: 1rem;
+                    align-items: center;
+                    background: linear-gradient(60deg, rgb(116, 214, 149) 0%, rgb(58, 200, 219) 100%);
+                    display: flex;
+                    max-width: 120rem;
+                    justify-content: space-between;
+                    
+                        i{
+                            display: flex;
+                            transition: 0.5s ease;
+                            &.open{
+                                transform: rotate(180deg);
+                                transition: 0.5s ease;
+                            }
+                        }
+                    }
+
+                    p{  
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: 0.2s ease;
+                        padding-left: 1rem;
+                        padding-right: 1rem;
+                        max-width: 120rem;
+                        &.open{
+                            padding-top: 1rem;
+                            padding-bottom: 1rem;
+                            max-height: 90rem;
+                            overflow: unset;
+                            transition: 0.2s ease;
+                            max-width: 120rem;
+                        }
+                    }
+                   
+                }
+            }   
+            
+        }
+        .see__more{
+            display: flex;
+            justify-content: center;
+            a{
+                i{
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}

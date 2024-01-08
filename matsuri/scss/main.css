@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+time {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000000;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Helvetica, "sans-serif";
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #000000;
+}
+
+.container {
+  max-width: 130rem;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0 auto;
+}
+
+.medtips {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.medtips__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.medtips__wrapper .title {
+  display: flex;
+  justify-content: center;
+}
+.medtips__wrapper .title h1 {
+  font-size: 4rem;
+}
+.medtips__wrapper .title h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  background: linear-gradient(60deg, rgb(100, 179, 243) 10%, rgb(69, 233, 255) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.medtips__wrapper .dropdown {
+  display: flex;
+  flex-direction: column;
+}
+.medtips__wrapper .dropdown .text__tips .topdrop {
+  border-width: 1px;
+}
+.medtips__wrapper .dropdown .text__tips .topdrop h1 {
+  padding: 1rem;
+  align-items: center;
+  background: linear-gradient(60deg, rgb(116, 214, 149) 0%, rgb(58, 200, 219) 100%);
+  display: flex;
+  max-width: 120rem;
+  justify-content: space-between;
+}
+.medtips__wrapper .dropdown .text__tips .topdrop h1 i {
+  display: flex;
+  transition: 0.5s ease;
+}
+.medtips__wrapper .dropdown .text__tips .topdrop h1 i.open {
+  transform: rotate(180deg);
+  transition: 0.5s ease;
+}
+.medtips__wrapper .dropdown .text__tips .topdrop p {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.2s ease;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 120rem;
+}
+.medtips__wrapper .dropdown .text__tips .topdrop p.open {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-height: 90rem;
+  overflow: unset;
+  transition: 0.2s ease;
+  max-width: 120rem;
+}
+.medtips__wrapper .see__more {
+  display: flex;
+  justify-content: center;
+}
+.medtips__wrapper .see__more a i {
+  margin-left: 1rem;
+}/*# sourceMappingURL=main.css.map */
